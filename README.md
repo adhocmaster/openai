@@ -44,8 +44,6 @@ Requires Node 16.x
 
 ## Example Input-Output (Prompt in Text)
 
-**Command: yarn names**
-
 Input:
 ```
   * Your Account
@@ -329,7 +327,7 @@ Archive order
 
 ```
 
-Output:
+Output of **yarn names**:
 
 ```
 VANMASS Universal Car Phone Mount
@@ -347,3 +345,106 @@ Garnier Fructis Sleek & Shine Moroccan Sleek Smoothing Oil
 
 ```
 
+Output of **yarn products**:
+```
+{
+  "orders": [
+    {
+      "product_name": "VANMASS Universal Car Phone Mount",
+      "brand": "VANMASS",
+      "price": "$23.80",
+      "classification": "Electronics",
+      "keywords": ["Car Phone Mount", "Phone Holder", "Dashboard", "Windshield", "iPhone", "Samsung", "Android", "Pickup Truck"],
+      "date_purchased": "July 12, 2023"
+    },
+    {
+      "product_name": "Genie 7155-TKV Smart Garage Door Opener",
+      "brand": "Genie",
+      "price": "$246.80",
+      "classification": "Home Improvement",
+      "keywords": ["Garage Door Opener", "Smart", "WiFi", "Battery Backup", "Alexa", "Google Home"],
+      "date_purchased": "July 12, 2023"
+    },
+    {
+      "product_name": "Flexzilla Garden Hose 5/8 in. x 100 ft.",
+      "brand": "Flexzilla",
+      "price": "$57.99",
+      "classification": "Outdoor",
+      "keywords": ["Garden Hose", "Heavy Duty", "Lightweight", "Drinking Water Safe"],
+      "date_purchased": "July 11, 2023"
+    },
+    {
+      "product_name": "Homall L Shaped Gaming Desk",
+      "brand": "Homall",
+      "price": "$64.94",
+      "classification": "Furniture",
+      "keywords": ["Gaming Desk", "Computer Desk", "Corner Desk", "PC Gaming Desk", "Home Office"],
+      "date_purchased": "July 9, 2023"
+    },
+    {
+      "product_name": "ASURION 3 Year Furniture Protection Plan",
+      "brand": "ASURION",
+      "price": "$15.14",
+      "classification": "Insurance",
+      "keywords": ["Furniture Protection Plan"],
+      "date_purchased": "July 9, 2023"
+    },
+    {
+      "product_name": "Rust-Oleum 261845 EpoxyShield Garage Floor Coating",
+      "brand": "Rust-Oleum",
+      "price": "$200.25",
+      "classification": "Home Improvement",
+      "keywords": ["Garage Floor Coating"],
+      "date_purchased": "July 3, 2023"
+    },
+    {
+      "product_name": "Bonnlo 3 Burner Outdoor Portable Propane Stove",
+      "brand": "Bonnlo",
+      "price": "$115.92",
+      "classification": "Outdoor",
+      "keywords": ["Outdoor Propane Stove", "Gas Cooker", "Patio Burner", "Camp Cooking"],
+      "date_purchased": "July 1, 2023"
+    },
+    {
+      "product_name": "Purrfectzone Bidet Sprayer for Toilet",
+      "brand": "Purrfectzone",
+      "price": "$0.00",
+      "classification": "Bathroom",
+      "keywords": ["Bidet Sprayer", "Handheld Sprayer Kit", "Cloth Diaper Sprayer"],
+      "date_purchased": "June 27, 2023"
+    },
+    {
+      "product_name": "Mielle Organics Rosemary Mint Scalp & Hair Strengthening Oil",
+      "brand": "Mielle Organics",
+      "price": "$9.78",
+      "classification": "Beauty",
+      "keywords": ["Hair Strengthening Oil", "Biotin", "Essential Oils", "Nourishing Treatment"],
+      "date_purchased": "June 26, 2023"
+    },
+    {
+      "product_name": "Cantu Coconut Curling Cream",
+      "brand": "Cantu",
+      "price": "$25.64",
+      "classification": "Beauty",
+      "keywords": ["Coconut Curling Cream", "Shea Butter", "Natural Hair"],
+      "date_purchased": "June 26, 2023"
+    },
+    {
+      "product_name": "Amazon Brand - Mama Bear Organic Kids Vitamin D3 25 mcg (1000 IU) Gummies",
+      "brand": "Amazon Brand - Mama Bear",
+      "price": "$25.64",
+      "classification": "Health",
+      "keywords": ["Vitamin D3 Gummies", "Bone Health", "Immune Health"],
+      "date_purchased": "June 26, 2023"
+    },
+    {
+      "product_name": "Garnier Fructis Sleek & Shine Moroccan Sleek Smoothing Oil",
+      "brand": "Garnier Fructis",
+      "price": "$25.64",
+      "classification": "Beauty",
+      "keywords": ["Hair Smoothing Oil", "Argan Oil", "Frizzy Hair"],
+      "date_purchased": "June 26, 2023"
+    }
+  ]
+}
+```
