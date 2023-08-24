@@ -1,7 +1,7 @@
 import { PromptUtils } from "./PromptUtils";
 import { DataUtils } from "./utils/DataUtils";
 
-const promptUtils = new PromptUtils();
+const promptUtils = new PromptUtils(true);
 const dataUtils = new DataUtils();
 
 (async function() {
@@ -11,8 +11,20 @@ const dataUtils = new DataUtils();
     const nTokens = (await promptUtils.getNumberOfTokensForChat(txtData))._unsafeUnwrap()
     console.log("Number of tokens", nTokens)
 
-    const prompt = `You are an expert in understanding e-commerce. Can you get the product names from the following text? I also need the product brand, price, classification, keywords, and date purchased.
-    Respond with the names, brand, price, classification, keywords, and date only. Please, use JSON structure for output. :\n\n${txtData}`
+    // const prompt = `You are an expert in understanding e-commerce. Can you get the product names from the following text? I also need the product brand, price, classification, keywords, and date purchased.
+    // Respond with the name, brand, price, classification, keywords, and date only. Please, use JSON structure for output. :\n\n${txtData}` - This is unreliable
+    const prompt = `You are an expert in understanding e-commerce.  I need all the output in this format:
+    \n\nJSON format: \n
+        {
+            name: string,
+            brand: string,
+            price: number,
+            classification: string,
+            keywords: string[],
+            date: string
+        }
+    Can you get the product names from the following text? I also need the product brand, price, classification, keywords, and date purchased.
+    Give response in a JSON array in the preceding format. :\n\n${txtData}`
     const messages =  [{"role": "system", "content": "You are an helpful assistant."}, {"role": "user", "content": prompt}]
     
     let res = await promptUtils.chat(messages)
