@@ -1,6 +1,7 @@
 import 'dotenv/config'
 import { Configuration, OpenAIApi } from "openai";
-import { get_encoding, encoding_for_model, TiktokenModel, Tiktoken } from "@dqbd/tiktoken"; // Can be optimized for browsers to not to load all the encodings
+// import { get_encoding, encoding_for_model, TiktokenModel, Tiktoken } from "@dqbd/tiktoken"; // Can be optimized for browsers to not to load all the encodings
+import { getEncoding, encodingForModel, TiktokenModel, Tiktoken } from "js-tiktoken";
 import { open, readFile, writeFile } from 'node:fs/promises';
 import {convert} from 'html-to-text';
 import { DataUtils } from './utils/DataUtils';
@@ -24,7 +25,8 @@ export class PromptUtils {
           });
         this.openai = new OpenAIApi(configuration);
         this.temperature = 0.1;
-        this.chatEncoder= encoding_for_model(this.chatModel);
+        // this.chatEncoder= encoding_for_model(this.chatModel);
+        this.chatEncoder= encodingForModel(this.chatModel);
     }
 
     private writeResponse(response:string, ext=".txt"): ResultAsync<void, Error> {

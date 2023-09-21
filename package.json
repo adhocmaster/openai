@@ -11,7 +11,8 @@
     "user-info": "tsc && node dist/PromptUserInfo.js",
     "orders": "tsc && node dist/PromptOrders.js",
     "mine": "tsc && node dist/HtmlToTextMiner.js",
-    "anonymize": "tsc && node dist/Anonymizer.js"
+    "anonymize": "tsc && node dist/Anonymizer.js",
+    "test-pre": "tsc && node dist/HTMLPreprocess.js"
   },
   "author": "Golam Md Muktadir",
   "license": "ISC",
@@ -25,6 +26,7 @@
   },
   "dependencies": {
     "@dqbd/tiktoken": "^1.0.7",
+    "js-tiktoken": "^1.0.7",
     "babel-jest": "^29.6.1",
     "dotenv": "^16.3.1",
     "eslint-plugin-neverthrow": "^1.1.4",
