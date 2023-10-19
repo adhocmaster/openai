@@ -1,0 +1,21 @@
+{
+    "id": "chatcmpl-88Vl4F0kvcGcKfOlbuTBTRE9iDIyJ",
+    "object": "chat.completion",
+    "created": 1697039394,
+    "model": "gpt-3.5-turbo-0613",
+    "choices": [
+        {
+            "index": 0,
+            "message": {
+                "role": "assistant",
+                "content": "[\n    {\n        \"name\": \"AN ITEM YOU BOUGHT HAS BEEN RECALLED\",\n        \"price\": null,\n        \"classification\": null,\n        \"keywords\": [],\n        \"date\": null\n    },\n    {\n        \"name\": \"THERE'S A PROBLEM DISPLAYING YOUR ORDERS RIGHT NOW.\",\n        \"price\": null,\n        \"classification\": null,\n        \"keywords\": [],\n        \"date\": null\n    },\n    {\n        \"name\": \"Looks like you haven't placed an order in the last 3 months. View orders in 2023\",\n        \"price\": null,\n        \"classification\": null,\n        \"keywords\": [],\n        \"date\": null\n    }\n]"
+            },
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 2047,
+        "completion_tokens": 145,
+        "total_tokens": 2192
+    }
+}

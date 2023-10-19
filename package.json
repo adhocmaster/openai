@@ -9,6 +9,7 @@
     "dev": "nodemon",
     "names": "tsc && node dist/PromptProductNames.js",
     "user-info": "tsc && node dist/PromptUserInfo.js",
+    "categories": "tsc && node dist/PromptCategory.js",
     "orders": "tsc && node dist/PromptOrders.js",
     "mine": "tsc && node dist/HtmlToTextMiner.js",
     "anonymize": "tsc && node dist/Anonymizer.js",

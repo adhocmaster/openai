@@ -1,0 +1,21 @@
+{
+    "id": "chatcmpl-8BRj0paJ7xjAvy96Np392N5GOE0Rt",
+    "object": "chat.completion",
+    "created": 1697738874,
+    "model": "gpt-3.5-turbo-0613",
+    "choices": [
+        {
+            "index": 0,
+            "message": {
+                "role": "assistant",
+                "content": "[\n    {\n        \"name\": \"Mielle Organics Rosemary Mint Scalp & Hair Strengthening Oil\",\n        \"category\": \"Hair Care\",\n        \"keywords\": [\n            \"Rosemary Mint\",\n            \"Scalp & Hair Strengthening Oil\",\n            \"Biotin\",\n            \"Essential Oils\",\n            \"Nourishing Treatment\",\n            \"Split Ends\",\n            \"Dry Scalp\",\n            \"All Hair Types\",\n            \"2-Fluid Ounces\"\n        ]\n    }\n]"
+            },
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 158,
+        "completion_tokens": 106,
+        "total_tokens": 264
+    }
+}

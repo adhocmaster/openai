@@ -1,0 +1,21 @@
+{
+    "id": "chatcmpl-88Vbraq8r8OXt1t6lo0R81mgOkVaD",
+    "object": "chat.completion",
+    "created": 1697038823,
+    "model": "gpt-3.5-turbo-0613",
+    "choices": [
+        {
+            "index": 0,
+            "message": {
+                "role": "assistant",
+                "content": "{\n    \"names\": [\"Erdem\", \"Erdem ÇEVİK\", \"Emine ÇEVİK\"],\n    \"addresses\": []\n}"
+            },
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 1966,
+        "completion_tokens": 33,
+        "total_tokens": 1999
+    }
+}

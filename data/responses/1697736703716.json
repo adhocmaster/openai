@@ -1,0 +1,21 @@
+{
+    "id": "chatcmpl-8BR9fkiBMbcwIlNYU2frKJfimI2ce",
+    "object": "chat.completion",
+    "created": 1697736683,
+    "model": "gpt-3.5-turbo-0613",
+    "choices": [
+        {
+            "index": 0,
+            "message": {
+                "role": "assistant",
+                "content": "[\n    {\n        \"name\": \"VANMASS Universal Car Phone Mount,【Patent & Safety Certs】 Upgraded Handsfree Stand, Phone Holder for Car Dashboard Windshield Vent, Compatible with iPhone 14 13 12 Samsung Android & Pickup Truck\",\n        \"brand\": \"VANMASS\",\n        \"price\": 23.8,\n        \"classification\": null,\n        \"keywords\": [],\n        \"date\": \"July 12, 2023\"\n    },\n    {\n        \"name\": \"Genie 7155-TKV Smart Garage Door Opener StealthDrive Connect - Ultra Quiet opener, WiFi, Battery Backup - Works with Alexa & Google Home\",\n        \"brand\": \"Genie\",\n        \"price\": 246.8,\n        \"classification\": null,\n        \"keywords\": [],\n        \"date\": \"July 12, 2023\"\n    },\n    {\n        \"name\": \"Flexzilla Garden Hose 5/8 in. x 100 ft., Heavy Duty, Lightweight, Drinking Water Safe, ZillaGreen - HFZG5100YW-E\",\n        \"brand\": null,\n        \"price\": 57.99,\n        \"classification\": null,\n        \"keywords\": [],\n        \"date\": \"July 11, 2023\"\n    },\n    {\n        \"name\": \"Homall L Shaped Gaming Desk Computer Corner Desk PC Gaming Desk Table with Large Monitor Riser Stand for Home Office Sturdy Writing Workstation (Black, 51 Inch)\",\n        \"brand\": \"Homall\",\n        \"price\": 64.94,\n        \"classification\": null,\n        \"keywords\": [],\n        \"date\": \"July 9, 2023\"\n    },\n    {\n        \"name\": \"ASURION 3 Year Furniture Protection Plan ($60 - $69.99)\",\n        \"brand\": null,\n        \"price\": 15.14,\n        \"classification\": null,\n        \"keywords\": [],\n        \"date\": \"July 9, 2023\"\n    },\n    {\n        \"name\": \"Rust-Oleum 261845 EpoxyShield Garage Floor Coating , 2 gal, Gray\",\n        \"brand\": \"Rust-Oleum\",\n        \"price\": 200.25,\n        \"classification\": null,\n        \"keywords\": [],\n        \"date\": \"July 3, 2023\"\n    },\n    {\n        \"name\": \"Bonnlo 3 Burner Outdoor Portable Propane Stove Gas Cooker, Heavy Duty Iron Cast Patio Burner with Detachable Stand Legs for Camp Cooking (3-Burner 225,000-BTU)\",\n        \"brand\": \"Bonnlo\",\n        \"price\": 115.92,\n        \"classification\": null,\n        \"keywords\": [],\n        \"date\": \"July 1, 2023\"\n    },\n    {\n        \"name\": \"Purrfectzone Bidet Sprayer for Toilet, Handheld Sprayer Kit , Cloth Diaper Sprayer Set - Easy to Install - Stainless Steel\",\n        \"brand\": null,\n        \"price\": 0.0,\n        \"classification\": null,\n        \"keywords\": [],\n        \"date\": \"June 27, 2023\"\n    },\n    {\n        \"name\": \"Mielle Organics Rosemary Mint Scalp & Hair Strengthening Oil With Biotin & Essential Oils, Nourishing Treatment for Split Ends and Dry Scalp for All Hair Types, 2-Fluid Ounces\",\n        \"brand\": null,\n        \"price\": 9.78,\n        \"classification\": null,\n        \"keywords\": [],\n        \"date\": \"June 26, 2023\"\n    },\n    {\n        \"name\": \"Cantu Coconut Curling Cream with Shea Butter for Natural Hair, 12 oz (Packaging May Vary)\",\n        \"brand\": null,\n        \"price\": 25.64,\n        \"classification\": null,\n        \"keywords\": [],\n        \"date\": null\n    }\n]"
+            },
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 1771,
+        "completion_tokens": 827,
+        "total_tokens": 2598
+    }
+}
