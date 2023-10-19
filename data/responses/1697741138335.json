@@ -1,0 +1,21 @@
+{
+    "id": "chatcmpl-8BSJFHGNrXew79V0x61bpHe5iU8VD",
+    "object": "chat.completion",
+    "created": 1697741121,
+    "model": "gpt-3.5-turbo-0613",
+    "choices": [
+        {
+            "index": 0,
+            "message": {
+                "role": "assistant",
+                "content": "[\n    {\n        \"product_id\": 1,\n        \"category\": \"Beauty & Health\",\n        \"keywords\": [\"Mielle Organics\", \"Rosemary Mint\", \"Scalp & Hair Strengthening Oil\", \"Biotin\", \"Essential Oils\", \"Nourishing Treatment\", \"Split Ends\", \"Dry Scalp\", \"Hair Types\", \"2-Fluid Ounces\"]\n    },\n    {\n        \"product_id\": 2,\n        \"category\": \"Outdoors\",\n        \"keywords\": [\"Bonnlo\", \"3 Burner\", \"Outdoor Portable Propane Stove\", \"Gas Cooker\", \"Heavy Duty\", \"Iron Cast\", \"Patio Burner\", \"Detachable Stand Legs\", \"Camp Cooking\", \"225,000-BTU\"]\n    },\n    {\n        \"product_id\": 3,\n        \"category\": \"Electronics\",\n        \"keywords\": [\"Genie\", \"7155-TKV\", \"Smart Garage Door Opener\", \"StealthDrive Connect\", \"Ultra Quiet opener\", \"WiFi\", \"Battery Backup\", \"Works with Alexa\", \"Google Home\"]\n    },\n    {\n        \"product_id\": 4,\n        \"category\": \"Automotive\",\n        \"keywords\": [\"VANMASS\", \"Universal Car Phone Mount\", \"Patent & Safety Certs\", \"Upgraded Handsfree Stand\", \"Phone Holder\", \"Car Dashboard Windshield Vent\", \"Compatible with iPhone\", \"Samsung Android\", \"Pickup Truck\"]\n    },\n    {\n        \"product_id\": 5,\n        \"category\": \"Outdoors\",\n        \"keywords\": [\"Bonnlo\", \"3 Burner\", \"Outdoor Portable Propane Stove\", \"Gas Cooker\", \"Heavy Duty\", \"Iron Cast\", \"Patio Burner\", \"Detachable Stand Legs\", \"Camp Cooking\", \"225,000-BTU\"]\n    },\n    {\n        \"product_id\": 6,\n        \"category\": \"Electronics\",\n        \"keywords\": [\"Genie\", \"7155-TKV\", \"Smart Garage Door Opener\", \"StealthDrive Connect\", \"Ultra Quiet opener\", \"WiFi\", \"Battery Backup\", \"Works with Alexa\", \"Google Home\"]\n    },\n    {\n        \"product_id\": 7,\n        \"category\": \"Automotive\",\n        \"keywords\": [\"VANMASS\", \"Universal Car Phone Mount\", \"Patent & Safety Certs\", \"Upgraded Handsfree Stand\", \"Phone Holder\", \"Car Dashboard Windshield Vent\", \"Compatible with iPhone\", \"Samsung Android\", \"Pickup Truck\"]\n    },\n    {\n        \"product_id\": 9,\n        \"category\": \"Outdoors\",\n        \"keywords\": [\"Bonnlo\", \"3 Burner\", \"Outdoor Portable Propane Stove\", \"Gas Cooker\", \"Heavy Duty\", \"Iron Cast\", \"Patio Burner\", \"Detachable Stand Legs\", \"Camp Cooking\", \"225,000-BTU\"]\n    },\n    {\n        \"product_id\": 10,\n        \"category\": \"Electronics\",\n        \"keywords\": [\"Genie\", \"7155-TKV\", \"Smart Garage Door Opener\", \"StealthDrive Connect\", \"Ultra Quiet opener\", \"WiFi\", \"Battery Backup\", \"Works with Alexa\", \"Google Home\"]\n    },\n    {\n        \"product_id\": 11,\n        \"category\": \"Automotive\",\n        \"keywords\": [\"VANMASS\", \"Universal Car Phone Mount\", \"Patent & Safety Certs\", \"Upgraded Handsfree Stand\", \"Phone Holder\", \"Car Dashboard Windshield Vent\", \"Compatible with iPhone\", \"Samsung Android\", \"Pickup Truck\"]\n    }\n]"
+            },
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 741,
+        "completion_tokens": 753,
+        "total_tokens": 1494
+    }
+}

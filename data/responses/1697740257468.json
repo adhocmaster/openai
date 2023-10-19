@@ -1,0 +1,21 @@
+{
+    "id": "chatcmpl-8BS58BreopE6OsJegsKVhC3XpCGaG",
+    "object": "chat.completion",
+    "created": 1697740246,
+    "model": "gpt-3.5-turbo-0613",
+    "choices": [
+        {
+            "index": 0,
+            "message": {
+                "role": "assistant",
+                "content": "[\n    {\n        \"name\": \"Mielle Organics Rosemary Mint Scalp & Hair Strengthening Oil With Biotin & Essential Oils, Nourishing Treatment for Split Ends and Dry Scalp for All Hair Types, 2-Fluid Ounces\",\n        \"category\": \"Hair Care\",\n        \"keywords\": [\"Mielle Organics\", \"Rosemary Mint\", \"Scalp & Hair Strengthening Oil\", \"Biotin\", \"Essential Oils\", \"Nourishing Treatment\", \"Split Ends\", \"Dry Scalp\", \"All Hair Types\", \"2-Fluid Ounces\"]\n    },\n    {\n        \"name\": \"Bonnlo 3 Burner Outdoor Portable Propane Stove Gas Cooker, Heavy Duty Iron Cast Patio Burner with Detachable Stand Legs for Camp Cooking (3-Burner 225,000-BTU)\",\n        \"category\": \"Outdoor Cooking\",\n        \"keywords\": [\"Bonnlo\", \"3 Burner\", \"Outdoor Portable Propane Stove\", \"Gas Cooker\", \"Heavy Duty\", \"Iron Cast Patio Burner\", \"Detachable Stand Legs\", \"Camp Cooking\", \"3-Burner 225,000-BTU\"]\n    },\n    {\n        \"name\": \"Genie 7155-TKV Smart Garage Door Opener StealthDrive Connect - Ultra Quiet opener, WiFi, Battery Backup - Works with Alexa & Google Home\",\n        \"category\": \"Home Improvement\",\n        \"keywords\": [\"Genie 7155-TKV\", \"Smart Garage Door Opener\", \"StealthDrive Connect\", \"Ultra Quiet opener\", \"WiFi\", \"Battery Backup\", \"Works with Alexa\", \"Google Home\"]\n    },\n    {\n        \"name\": \"VANMASS Universal Car Phone Mount,【Patent & Safety Certs】 Upgraded Handsfree Stand, Phone Holder for Car Dashboard Windshield Vent, Compatible with iPhone 14 13 12 Samsung Android & Pickup Truck\",\n        \"category\": \"Electronics\",\n        \"keywords\": [\"VANMASS\", \"Universal Car Phone Mount\", \"Patent & Safety Certs\", \"Upgraded Handsfree Stand\", \"Phone Holder\", \"Car Dashboard Windshield Vent\", \"Compatible with iPhone 14 13 12 Samsung Android\", \"Pickup Truck\"]\n    }\n]"
+            },
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 322,
+        "completion_tokens": 473,
+        "total_tokens": 795
+    }
+}
