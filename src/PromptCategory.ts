@@ -66,8 +66,8 @@ const dataUtils = new DataUtils();
     \n\nJSON format: \n
         {
             product_id: number,
+            sub_category: string,
             category: string,
-            sub-category: string,
             keywords: string[],
         }
         Classification denotes the category of the product and keywords describe the products using a few keywords. For categories choose from ['Beauty & Health', 'Outdoors', 'Home & Gardening', 'Electronics', "Automotive"] only. A product has one category and multiple keywords. Here is a list of products seperated by new lines. 
