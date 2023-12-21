@@ -7,8 +7,8 @@ const dataUtils = new DataUtils();
 (async function() {
     // const txtData = (await dataUtils.read('data/text/amazon_2023_raw_whole.txt_anonymized'))._unsafeUnwrap()
     // const txtData = (await dataUtils.read('data/text/amazon_empty_full'))._unsafeUnwrap()
-    const txtData = (await dataUtils.read('data/text/bodyamazon_blank.txt_anonymized'))._unsafeUnwrap()
-    // const txtData = (await dataUtils.read('data/text/input_producing_halucination.txt'))._unsafeUnwrap()
+    // const txtData = (await dataUtils.read('data/text/bodyamazon_blank.txt_anonymized'))._unsafeUnwrap()
+    const txtData = (await dataUtils.read('data/text/input_producing_halucination.txt'))._unsafeUnwrap()
     console.log(txtData)
     
     const nTokens = (await promptUtils.getNumberOfTokensForChat(txtData))._unsafeUnwrap()
@@ -26,10 +26,12 @@ const dataUtils = new DataUtils();
             keywords: string[],
             date: string
         }
-        I need the purchase history from the following content. A purchase history must have a product name, price, and date of purchase. It can also have brand, classification, keywords which are optional. Classification denotes the category of the product and keywords describe the products using a few key words. The purchase date and price cannot be null. 
+        I need the purchase history from the following content. You need to follow theses rules:
+        A purchase history must have a product name, price, and date of purchase. It can also have brand, classification, keywords which are optional. 
+        Classification denotes the category of the product and keywords describe the products using a few key words. 
+        The purchase date and price cannot be null. 
         Do not include a purchase information in the output if the purchase date or price is missing. 
-        First filter out any related products, browsing history, and recommendations to extract authentic information.
-        Do not generate imaginary products and history. Don't push yourself too hard if you cannot find a purchase. Last, remove any purchase with null price or date.
+        Do not push yourself hard and do not generate imaginary purchases.
         Give response in a JSON array in the preceding format. :\n\n${txtData}`
     // I need the purchase history from the following content. A purchase history must have a product name, price, and date of purchase. Can you get the product names from the following text? I also need the product brand, price, classification, keywords, and date purchased. 
     // Give response in a JSON array in the preceding format. :\n\n${txtData}`

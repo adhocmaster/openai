@@ -1,0 +1,23 @@
+{
+    "id": "chatcmpl-8YJFlWwzHDbWeYC6oadcx1clR2i7g",
+    "object": "chat.completion",
+    "created": 1703187853,
+    "model": "gpt-3.5-turbo-0613",
+    "choices": [
+        {
+            "index": 0,
+            "message": {
+                "role": "assistant",
+                "content": "[\n    {\n        \"name\": \"Learn Python 3 the Hard Way: A Very Simple Introduction to the Terrifyingly Beautiful World of Computers and Code (Zed Shaw's Hard Way Series)\",\n        \"brand\": \"hidden name\",\n        \"price\": 602.78,\n        \"classification\": null,\n        \"keywords\": null,\n        \"date\": \"2023-01-04\"\n    },\n    {\n        \"name\": \"Learn C the Hard Way: Practical Exercises on the Computational Subjects You Keep Avoiding (Like C) (Zed Shaw's Hard Way Series)\",\n        \"brand\": \"Zed A. Shaw\",\n        \"price\": 602.78,\n        \"classification\": null,\n        \"keywords\": null,\n        \"date\": \"2023-01-04\"\n    },\n    {\n        \"name\": \"Learn Python the Hard Way: A Very Simple Introduction to the Terrifyingly Beautiful World of Computers and Code (Zed Shaw's Hard Way Series)\",\n        \"brand\": \"hidden name\",\n        \"price\": 602.78,\n        \"classification\": null,\n        \"keywords\": null,\n        \"date\": \"2023-01-04\"\n    },\n    {\n        \"name\": \"Learn Ruby the Hard Way: A Simple and Idiomatic Introduction to the Imaginative World Of Computational Thinking with Code (Zed Shaw's Hard Way Series)\",\n        \"brand\": \"Zed A. Shaw\",\n        \"price\": 602.78,\n        \"classification\": null,\n        \"keywords\": null,\n        \"date\": \"2023-01-04\"\n    },\n    {\n        \"name\": \"CAT8 Ethernet Cable, 6Ft Heavy Duty High Speed Internet Network Cable, Professional LAN Cable Shielded in Wall, Indoor&Outdoor\",\n        \"brand\": null,\n        \"price\": 209.17,\n        \"classification\": null,\n        \"keywords\": null,\n        \"date\": \"2023-01-04\"\n    },\n    {\n        \"name\": \"Big Fudge Vinyl Record Cleaning Kit - Complete 4-in-1 - Includes Ultra-Soft Velvet Record Brush, XL Cleaning Liquid, Stylus Brush and Storage Pouch! Will NOT Scratch Your Records\",\n        \"brand\": null,\n        \"price\": 639.73,\n        \"classification\": null,\n        \"keywords\": null,\n        \"date\": \"2023-01-04\"\n    },\n    {\n        \"name\": \"Edifier R1280Ts Powered Bookshelf Speakers - 2.0 Stereo Active Near Field Monitors - Studio Monitor Speaker - 42 Watts RMS with Subwoofer Line Out - Wooden Enclosure\",\n        \"brand\": null,\n        \"price\": 3781.63,\n        \"classification\": null,\n        \"keywords\": null,\n        \"date\": \"2023-01-05\"\n    },\n    {\n        \"name\": \"Amazon Basics RJ45 Cat 6 Ethernet Patch Cable, 1Gpbs Transfer Speed, Gold-Plated Connectors, 10 Foot For Personal Computer,Printer,Laptop,Gaming Consoles,Router\",\n        \"brand\": null,\n        \"price\": 145.17,\n        \"classification\": null,\n        \"keywords\": null,\n        \"date\": \"2023-01-04\"\n    }\n]"
+            },
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 2390,
+        "completion_tokens": 679,
+        "total_tokens": 3069
+    },
+    "system_fingerprint": null
+}

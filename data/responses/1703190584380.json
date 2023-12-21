@@ -1,0 +1,23 @@
+{
+    "id": "chatcmpl-8YJxYZAgq3H2vShE05qr6DSkbrPkZ",
+    "object": "chat.completion",
+    "created": 1703190568,
+    "model": "gpt-3.5-turbo-16k-0613",
+    "choices": [
+        {
+            "index": 0,
+            "message": {
+                "role": "assistant",
+                "content": "{\n    \"name\": \"Arts & Crafts\",\n    \"price\": 15.99,\n    \"date\": \"2022-05-10\"\n},\n{\n    \"name\": \"Beauty & Personal Care\",\n    \"brand\": \"L'Oreal\",\n    \"price\": 9.99,\n    \"classification\": \"Skincare\",\n    \"keywords\": [\"moisturizer\", \"anti-aging\"],\n    \"date\": \"2022-05-12\"\n},\n{\n    \"name\": \"Books\",\n    \"brand\": \"Penguin\",\n    \"price\": 12.99,\n    \"classification\": \"Fiction\",\n    \"keywords\": [\"mystery\", \"thriller\"],\n    \"date\": \"2022-05-15\"\n},\n{\n    \"name\": \"Electronics\",\n    \"brand\": \"Apple\",\n    \"price\": 999.99,\n    \"classification\": \"Smartphones\",\n    \"keywords\": [\"iPhone\", \"iOS\"],\n    \"date\": \"2022-05-20\"\n},\n{\n    \"name\": \"Home & Kitchen\",\n    \"brand\": \"Instant Pot\",\n    \"price\": 79.99,\n    \"classification\": \"Cookware\",\n    \"keywords\": [\"pressure cooker\", \"multi-cooker\"],\n    \"date\": \"2022-05-25\"\n}"
+            },
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 910,
+        "completion_tokens": 273,
+        "total_tokens": 1183
+    },
+    "system_fingerprint": null
+}

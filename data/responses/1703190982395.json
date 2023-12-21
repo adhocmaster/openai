@@ -1,0 +1,23 @@
+{
+    "id": "chatcmpl-8YK3yKkzGrxyOy6n48LnFYaz8784q",
+    "object": "chat.completion",
+    "created": 1703190966,
+    "model": "gpt-3.5-turbo-0613",
+    "choices": [
+        {
+            "index": 0,
+            "message": {
+                "role": "assistant",
+                "content": "[\n    {\n        \"name\": \"Arts & Crafts\",\n        \"price\": null,\n        \"date\": null\n    },\n    {\n        \"name\": \"Automotive\",\n        \"price\": null,\n        \"date\": null\n    },\n    {\n        \"name\": \"Baby\",\n        \"price\": null,\n        \"date\": null\n    },\n    {\n        \"name\": \"Beauty & Personal Care\",\n        \"price\": null,\n        \"date\": null\n    },\n    {\n        \"name\": \"Books\",\n        \"price\": null,\n        \"date\": null\n    },\n    {\n        \"name\": \"Boys' Fashion\",\n        \"price\": null,\n        \"date\": null\n    },\n    {\n        \"name\": \"Computers\",\n        \"price\": null,\n        \"date\": null\n    },\n    {\n        \"name\": \"Deals\",\n        \"price\": null,\n        \"date\": null\n    },\n    {\n        \"name\": \"Digital Music\",\n        \"price\": null,\n        \"date\": null\n    },\n    {\n        \"name\": \"Electronics\",\n        \"price\": null,\n        \"date\": null\n    },\n    {\n        \"name\": \"Girls' Fashion\",\n        \"price\": null,\n        \"date\": null\n    },\n    {\n        \"name\": \"Health & Household\",\n        \"price\": null,\n        \"date\": null\n    },\n    {\n        \"name\": \"Home & Kitchen\",\n        \"price\": null,\n        \"date\": null\n    },\n    {\n        \"name\": \"Industrial & Scientific\",\n        \"price\": null,\n        \"date\": null\n    },\n    {\n        \"name\": \"Kindle Store\",\n        \"price\": null,\n        \"date\": null\n    },\n    {\n        \"name\": \"Luggage\",\n        \"price\": null,\n        \"date\": null\n    },\n    {\n        \"name\": \"Men's Fashion\",\n        \"price\": null,\n        \"date\": null\n    },\n    {\n        \"name\": \"Movies & TV\",\n        \"price\": null,\n        \"date\": null\n    },\n    {\n        \"name\": \"Music, CDs & Vinyl\",\n        \"price\": null,\n        \"date\": null\n    },\n    {\n        \"name\": \"Pet Supplies\",\n        \"price\": null,\n        \"date\": null\n    },\n    {\n        \"name\": \"Prime Video\",\n        \"price\": null,\n        \"date\": null\n    },\n    {\n        \"name\": \"Software\",\n        \"price\": null,\n        \"date\": null\n    },\n    {\n        \"name\": \"Sports & Outdoors\",\n        \"price\": null,\n        \"date\": null\n    },\n    {\n        \"name\": \"Tools & Home Improvement\",\n        \"price\": null,\n        \"date\": null\n    },\n    {\n        \"name\": \"Toys & Games\",\n        \"price\": null,\n        \"date\": null\n    },\n    {\n        \"name\": \"Video Games\",\n        \"price\": null,\n        \"date\": null\n    },\n    {\n        \"name\": \"Women's Fashion\",\n        \"price\": null,\n        \"date\": null\n    }\n]"
+            },
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 934,
+        "completion_tokens": 670,
+        "total_tokens": 1604
+    },
+    "system_fingerprint": null
+}

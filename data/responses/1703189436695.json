@@ -1,0 +1,23 @@
+{
+    "id": "chatcmpl-8YJf8K7YwZWgRfztr8j8T8LZv2fLG",
+    "object": "chat.completion",
+    "created": 1703189426,
+    "model": "gpt-3.5-turbo-1106",
+    "choices": [
+        {
+            "index": 0,
+            "message": {
+                "role": "assistant",
+                "content": "Here is the purchase history extracted from the provided content in the requested JSON format:\n\n```json\n[\n    {\n        \"name\": \"VANMASS Universal Car Phone Mount\",\n        \"price\": 23.80,\n        \"date\": \"July 12, 2023\"\n    },\n    {\n        \"name\": \"Genie 7155-TKV Smart Garage Door Opener\",\n        \"price\": 246.80,\n        \"date\": \"July 12, 2023\"\n    },\n    {\n        \"name\": \"Flexzilla Garden Hose 5/8 in. x 100 ft.\",\n        \"price\": 57.99,\n        \"date\": \"July 11, 2023\"\n    },\n    {\n        \"name\": \"Homall L Shaped Gaming Desk\",\n        \"price\": 64.94,\n        \"date\": \"July 9, 2023\"\n    },\n    {\n        \"name\": \"ASURION 3 Year Furniture Protection Plan\",\n        \"price\": 15.14,\n        \"date\": \"July 9, 2023\"\n    },\n    {\n        \"name\": \"Rust-Oleum 261845 EpoxyShield Garage Floor Coating\",\n        \"price\": 200.25,\n        \"date\": \"July 3, 2023\"\n    },\n    {\n        \"name\": \"Bonnlo 3 Burner Outdoor Portable Propane Stove\",\n        \"price\": 115.92,\n        \"date\": \"July 1, 2023\"\n    },\n    {\n        \"name\": \"Purrfectzone Bidet Sprayer for Toilet\",\n        \"price\": 0.00,\n        \"date\": \"June 27, 2023\"\n    },\n    {\n        \"name\": \"Mielle Organics Rosemary Mint Scalp & Hair Strengthening Oil\",\n        \"price\": 9.78,\n        \"date\": \"June 26, 2023\"\n    },\n    {\n        \"name\": \"Cantu Coconut Curling Cream with Shea Butter for Natural Hair\",\n        \"price\": 25.64,\n        \"date\": \"June 26, 2023\"\n    }\n]\n```\n\nPlease note that the output only includes purchase information with non-null purchase dates and prices, as per the provided requirements."
+            },
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 1805,
+        "completion_tokens": 482,
+        "total_tokens": 2287
+    },
+    "system_fingerprint": "fp_772e8125bb"
+}

@@ -1,0 +1,23 @@
+{
+    "id": "chatcmpl-8YJggGh9vNMKiPcBTjGKQrMeHoboj",
+    "object": "chat.completion",
+    "created": 1703189522,
+    "model": "gpt-3.5-turbo-16k-0613",
+    "choices": [
+        {
+            "index": 0,
+            "message": {
+                "role": "assistant",
+                "content": "[\n    {\n        \"name\": \"VANMASS Universal Car Phone Mount\",\n        \"brand\": \"VANMASS\",\n        \"price\": 23.8,\n        \"classification\": \"Phone Accessories\",\n        \"keywords\": [\"Car Phone Mount\", \"Handsfree Stand\", \"Phone Holder\"],\n        \"date\": \"July 12, 2023\"\n    },\n    {\n        \"name\": \"Genie 7155-TKV Smart Garage Door Opener\",\n        \"brand\": \"Genie\",\n        \"price\": 246.8,\n        \"classification\": \"Garage Door Opener\",\n        \"keywords\": [\"Smart Garage Door Opener\", \"WiFi\", \"Battery Backup\"],\n        \"date\": \"July 12, 2023\"\n    },\n    {\n        \"name\": \"Flexzilla Garden Hose\",\n        \"brand\": \"Flexzilla\",\n        \"price\": 57.99,\n        \"classification\": \"Garden Hose\",\n        \"keywords\": [\"Heavy Duty\", \"Lightweight\", \"Drinking Water Safe\"],\n        \"date\": \"July 11, 2023\"\n    },\n    {\n        \"name\": \"Homall L Shaped Gaming Desk\",\n        \"brand\": \"Homall\",\n        \"price\": 64.94,\n        \"classification\": \"Gaming Desk\",\n        \"keywords\": [\"Computer Corner Desk\", \"PC Gaming Desk\", \"Monitor Riser Stand\"],\n        \"date\": \"July 9, 2023\"\n    },\n    {\n        \"name\": \"ASURION 3 Year Furniture Protection Plan\",\n        \"brand\": \"ASURION\",\n        \"price\": 15.14,\n        \"classification\": \"Furniture Protection Plan\",\n        \"keywords\": [\"Protection Plan\", \"Furniture\"],\n        \"date\": \"July 9, 2023\"\n    },\n    {\n        \"name\": \"Rust-Oleum 261845 EpoxyShield Garage Floor Coating\",\n        \"brand\": \"Rust-Oleum\",\n        \"price\": 200.25,\n        \"classification\": \"Garage Floor Coating\",\n        \"keywords\": [\"EpoxyShield\", \"Gray\"],\n        \"date\": \"July 3, 2023\"\n    },\n    {\n        \"name\": \"Bonnlo 3 Burner Outdoor Portable Propane Stove\",\n        \"brand\": \"Bonnlo\",\n        \"price\": 115.92,\n        \"classification\": \"Outdoor Propane Stove\",\n        \"keywords\": [\"Gas Cooker\", \"Patio Burner\"],\n        \"date\": \"July 1, 2023\"\n    },\n    {\n        \"name\": \"Purrfectzone Bidet Sprayer for Toilet\",\n        \"brand\": \"Purrfectzone\",\n        \"price\": 0.0,\n        \"classification\": \"Bidet Sprayer\",\n        \"keywords\": [\"Handheld Sprayer\", \"Cloth Diaper Sprayer\"],\n        \"date\": \"June 27, 2023\"\n    },\n    {\n        \"name\": \"Mielle Organics Rosemary Mint Scalp & Hair Strengthening Oil\",\n        \"brand\": \"Mielle Organics\",\n        \"price\": 9.78,\n        \"classification\": \"Hair Strengthening Oil\",\n        \"keywords\": [\"Biotin\", \"Essential Oils\"],\n        \"date\": \"June 26, 2023\"\n    },\n    {\n        \"name\": \"Cantu Coconut Curling Cream\",\n        \"brand\": \"Cantu\",\n        \"price\": 25.64,\n        \"classification\": \"Hair Care\",\n        \"keywords\": [\"Coconut Curling Cream\", \"Shea Butter\"],\n        \"date\": \"June 26, 2023\"\n    }\n]"
+            },
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 1805,
+        "completion_tokens": 774,
+        "total_tokens": 2579
+    },
+    "system_fingerprint": null
+}

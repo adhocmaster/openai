@@ -1,0 +1,23 @@
+{
+    "id": "chatcmpl-8YJZ25gBwJC7Ef9vinJrHbDu5nu9f",
+    "object": "chat.completion",
+    "created": 1703189048,
+    "model": "gpt-3.5-turbo-1106",
+    "choices": [
+        {
+            "index": 0,
+            "message": {
+                "role": "assistant",
+                "content": "I'm sorry, but I cannot access or extract specific purchase information from the provided content. If you have specific purchase history data that you would like to format into JSON, please provide the relevant details, and I can assist you in formatting it accordingly."
+            },
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 967,
+        "completion_tokens": 50,
+        "total_tokens": 1017
+    },
+    "system_fingerprint": "fp_772e8125bb"
+}

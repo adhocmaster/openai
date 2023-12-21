@@ -1,0 +1,23 @@
+{
+    "id": "chatcmpl-8YJpsscobFMTI0lqfFav9t4cKsTkd",
+    "object": "chat.completion",
+    "created": 1703190092,
+    "model": "gpt-3.5-turbo-16k-0613",
+    "choices": [
+        {
+            "index": 0,
+            "message": {
+                "role": "assistant",
+                "content": "[\n    {\n        \"name\": \"Product A\",\n        \"brand\": \"Brand A\",\n        \"price\": 19.99,\n        \"classification\": \"Category A\",\n        \"keywords\": [\"keyword1\", \"keyword2\"],\n        \"date\": \"2023-12-15\"\n    },\n    {\n        \"name\": \"Product B\",\n        \"brand\": \"Brand B\",\n        \"price\": 29.99,\n        \"classification\": \"Category B\",\n        \"keywords\": [\"keyword3\", \"keyword4\"],\n        \"date\": \"2023-12-18\"\n    },\n    {\n        \"name\": \"Product C\",\n        \"brand\": \"Brand C\",\n        \"price\": 9.99,\n        \"classification\": \"Category C\",\n        \"keywords\": [\"keyword5\", \"keyword6\"],\n        \"date\": \"2023-12-20\"\n    }\n]"
+            },
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 946,
+        "completion_tokens": 185,
+        "total_tokens": 1131
+    },
+    "system_fingerprint": null
+}

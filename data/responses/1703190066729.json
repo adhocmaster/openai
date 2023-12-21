@@ -1,0 +1,23 @@
+{
+    "id": "chatcmpl-8YJpR1H0gl4ivnkOb9gDPQ3z9lBnd",
+    "object": "chat.completion",
+    "created": 1703190065,
+    "model": "gpt-3.5-turbo-16k-0613",
+    "choices": [
+        {
+            "index": 0,
+            "message": {
+                "role": "assistant",
+                "content": "Based on the provided content, there is no purchase history available."
+            },
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 2392,
+        "completion_tokens": 13,
+        "total_tokens": 2405
+    },
+    "system_fingerprint": null
+}
