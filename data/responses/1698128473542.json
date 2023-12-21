@@ -1,0 +1,21 @@
+{
+    "id": "chatcmpl-8D54NDYxQFadDm73vLkqmjrsa69eQ",
+    "object": "chat.completion",
+    "created": 1698128443,
+    "model": "gpt-3.5-turbo-0613",
+    "choices": [
+        {
+            "index": 0,
+            "message": {
+                "role": "assistant",
+                "content": "[\n    {\n        \"product_id\": 1,\n        \"sub_category\": \"Hair Care\",\n        \"category\": \"Beauty & Health\",\n        \"keywords\": [\"Mielle Organics\", \"Rosemary Mint\", \"Scalp & Hair Strengthening Oil\", \"Biotin\", \"Essential Oils\", \"Nourishing Treatment\", \"Split Ends\", \"Dry Scalp\", \"All Hair Types\", \"2-Fluid Ounces\"]\n    },\n    {\n        \"product_id\": 2,\n        \"sub_category\": \"Outdoor Cooking\",\n        \"category\": \"Outdoors\",\n        \"keywords\": [\"Bonnlo\", \"3 Burner\", \"Outdoor Portable Propane Stove\", \"Gas Cooker\", \"Heavy Duty Iron Cast\", \"Patio Burner\", \"Detachable Stand Legs\", \"Camp Cooking\", \"225,000-BTU\"]\n    },\n    {\n        \"product_id\": 3,\n        \"sub_category\": \"Garage Door Opener\",\n        \"category\": \"Home & Gardening\",\n        \"keywords\": [\"Genie\", \"7155-TKV\", \"Smart Garage Door Opener\", \"StealthDrive Connect\", \"Ultra Quiet opener\", \"WiFi\", \"Battery Backup\", \"Works with Alexa\", \"Google Home\"]\n    },\n    {\n        \"product_id\": 4,\n        \"sub_category\": \"Car Phone Mount\",\n        \"category\": \"Electronics\",\n        \"keywords\": [\"VANMASS\", \"Universal Car Phone Mount\", \"Patent & Safety Certs\", \"Upgraded Handsfree Stand\", \"Phone Holder\", \"Car Dashboard Windshield Vent\", \"Compatible with iPhone\", \"Samsung Android\", \"Pickup Truck\"]\n    },\n    {\n        \"product_id\": 5,\n        \"sub_category\": \"Outdoor Cooking\",\n        \"category\": \"Outdoors\",\n        \"keywords\": [\"Bonnlo\", \"3 Burner\", \"Outdoor Portable Propane Stove\", \"Gas Cooker\", \"Heavy Duty Iron Cast\", \"Patio Burner\", \"Detachable Stand Legs\", \"Camp Cooking\", \"225,000-BTU\"]\n    },\n    {\n        \"product_id\": 6,\n        \"sub_category\": \"Garage Door Opener\",\n        \"category\": \"Home & Gardening\",\n        \"keywords\": [\"Genie\", \"7155-TKV\", \"Smart Garage Door Opener\", \"StealthDrive Connect\", \"Ultra Quiet opener\", \"WiFi\", \"Battery Backup\", \"Works with Alexa\", \"Google Home\"]\n    },\n    {\n        \"product_id\": 7,\n        \"sub_category\": \"Car Phone Mount\",\n        \"category\": \"Electronics\",\n        \"keywords\": [\"VANMASS\", \"Universal Car Phone Mount\", \"Patent & Safety Certs\", \"Upgraded Handsfree Stand\", \"Phone Holder\", \"Car Dashboard Windshield Vent\", \"Compatible with iPhone\", \"Samsung Android\", \"Pickup Truck\"]\n    },\n    {\n        \"product_id\": 9,\n        \"sub_category\": \"Outdoor Cooking\",\n        \"category\": \"Outdoors\",\n        \"keywords\": [\"Bonnlo\", \"3 Burner\", \"Outdoor Portable Propane Stove\", \"Gas Cooker\", \"Heavy Duty Iron Cast\", \"Patio Burner\", \"Detachable Stand Legs\", \"Camp Cooking\", \"225,000-BTU\"]\n    },\n    {\n        \"product_id\": 10,\n        \"sub_category\": \"Garage Door Opener\",\n        \"category\": \"Home & Gardening\",\n        \"keywords\": [\"Genie\", \"7155-TKV\", \"Smart Garage Door Opener\", \"StealthDrive Connect\", \"Ultra Quiet opener\", \"WiFi\", \"Battery Backup\", \"Works with Alexa\", \"Google Home\"]\n    },\n    {\n        \"product_id\": 11,\n        \"sub_category\": \"Car Phone Mount\",\n        \"category\": \"Electronics\",\n        \"keywords\": [\"VANMASS\", \"Universal Car Phone Mount\", \"Patent & Safety Certs\", \"Upgraded Handsfree Stand\", \"Phone Holder\", \"Car Dashboard Windshield Vent\", \"Compatible with iPhone\", \"Samsung Android\", \"Pickup Truck\"]\n    }\n]"
+            },
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 762,
+        "completion_tokens": 856,
+        "total_tokens": 1618
+    }
+}

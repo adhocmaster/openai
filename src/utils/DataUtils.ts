@@ -27,15 +27,7 @@ export class DataUtils {
 
     public convertHtmlToTextAndSave(srcPath: string, destPath: string): ResultAsync<void, Error> {
         
-        const options = {
-            selectors: [
-                { selector: 'a', options: { ignoreHref: true } },
-                { selector: 'img', format: 'skip' }
-            ]
-        }
         return this.read(srcPath).andThen((html) => {
-            // const text = convert(rawData, options);
-            // return this.write(destPath, text);
 
             return this.convertHtmlToText(html).map((text) => {
                 this.write(destPath, text);
@@ -46,6 +38,7 @@ export class DataUtils {
     public convertHtmlToText(html: string): ResultAsync<string, Error> {
         
         const options = {
+            baseElements: { selectors: ['.your-orders-content-container']},
             selectors: [
                 { selector: 'a', options: { ignoreHref: true } },
                 { selector: 'img', format: 'skip' }

@@ -1,0 +1,21 @@
+{
+    "id": "chatcmpl-8D4PacqJ92phcvYJEmyteX06tnhbU",
+    "object": "chat.completion",
+    "created": 1698125914,
+    "model": "gpt-3.5-turbo-0613",
+    "choices": [
+        {
+            "index": 0,
+            "message": {
+                "role": "assistant",
+                "content": "{\n    \"names\": [\"hidden name\", \"hidden name ÇEVİK\"],\n    \"addresses\": []\n}"
+            },
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 1960,
+        "completion_tokens": 23,
+        "total_tokens": 1983
+    }
+}

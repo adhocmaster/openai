@@ -7,6 +7,13 @@ const options = {
         { selector: 'img', format: 'skip' }
     ]
 }
+const optionsOrders = {
+    baseElements: { selectors: ['.your-orders-content-container']},
+    selectors: [
+        { selector: 'a', options: { ignoreHref: true } },
+        { selector: 'img', format: 'skip' }
+    ]
+}
 
 const optionsHead = {
     baseElements: { selectors: ['head', 'meta']},
@@ -145,6 +152,9 @@ const html = `
                         </div></div>
                                     </div>
 
+                <section class="your-orders-content-container aok-relative js-yo-container" style="width: 954px;">
+                Order section
+                </section>
                 <div class="a-row">
 
                     <div class="a-text-center pagination-full"><ul class="a-pagination"><li><a href="/gp/your-account/order-history/ref=ppx_yo_dt_b_pagination_7_6?ie=UTF8&amp;orderFilter=year-2022&amp;search=&amp;startIndex=50">←<span class="a-letter-space"></span><span class="a-letter-space"></span>Previous</a></li>
@@ -164,6 +174,6 @@ this is a paragraph
 google [https://www.google.com]
 [https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png]`
 
-console.log(convert(html, amazonPagination));
+console.log(convert(html, optionsOrders));
 
             

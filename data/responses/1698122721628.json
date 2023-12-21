@@ -1,0 +1,21 @@
+{
+    "id": "chatcmpl-8D3a44xY6eJHCxl23Ba0II11ifuP3",
+    "object": "chat.completion",
+    "created": 1698122720,
+    "model": "gpt-3.5-turbo-0613",
+    "choices": [
+        {
+            "index": 0,
+            "message": {
+                "role": "assistant",
+                "content": "{\n    \"names\": [\n        \"hidden name\"\n    ],\n    \"addresses\": [\n        \"hidden info, hidden info\"\n    ]\n}"
+            },
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 1701,
+        "completion_tokens": 29,
+        "total_tokens": 1730
+    }
+}

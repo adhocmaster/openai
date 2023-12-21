@@ -16,6 +16,7 @@ export class OrderScraper {
 
         return this.dataUtils.convertHtmlToText(html).andThen((text) => { 
 
+            text = text.substring(0, 3500);
             return this.getUserInfo(text);
         });
     }
@@ -34,6 +35,7 @@ export class OrderScraper {
         const messages =  [{"role": "system", "content": "You are an helpful assistant."}, {"role": "user", "content": prompt}]
         
         return this.promptUtils.chat(messages).map((res) => {
+            console.log(res);
             return <UserInfo>JSON.parse(res)
         })
     }

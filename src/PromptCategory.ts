@@ -63,15 +63,17 @@ const dataUtils = new DataUtils();
     // const prompt = `You are an expert in understanding e-commerce. Can you get the product names from the following text? I also need the product brand, price, classification, keywords, and date purchased.
     // Respond with the name, brand, price, classification, keywords, and date only. Please, use JSON structure for output. :\n\n${txtData}` - This is unreliable
     const prompt = `You are an expert in understanding product categories and keywords. I need to extract categories and keywords of some products. Sub-category is more specific.  I need all the output in this format:
-    \n\nJSON format: \n
+    \n\nJSON format for each product: \n
         {
             product_id: number,
             sub_category: string,
             category: string,
             keywords: string[],
         }
+
+        \n\nGive response in a JSON array in the preceding format. The array is enclosed in third brackets.
         Classification denotes the category of the product and keywords describe the products using a few keywords. For categories choose from ['Beauty & Health', 'Outdoors', 'Home & Gardening', 'Electronics', "Automotive"] only. A product has one category and multiple keywords. Here is a list of products seperated by new lines. 
-        Give response in a JSON array in the preceding format. :\n\n${txtData}`
+        \n\n${txtData}`
     // I need the purchase history from the following content. A purchase history must have a product name, price, and date of purchase. Can you get the product names from the following text? I also need the product brand, price, classification, keywords, and date purchased. 
     // Give response in a JSON array in the preceding format. :\n\n${txtData}`
     const messages =  [{"role": "system", "content": "You are an helpful assistant."}, {"role": "user", "content": prompt}]

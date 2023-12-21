@@ -1,0 +1,21 @@
+{
+    "id": "chatcmpl-8D4PZ27EwkvDJe8wG23VbZ7b8PcjC",
+    "object": "chat.completion",
+    "created": 1698125913,
+    "model": "gpt-3.5-turbo-0613",
+    "choices": [
+        {
+            "index": 0,
+            "message": {
+                "role": "assistant",
+                "content": "{\n    \"names\": [\"hidden name\"],\n    \"addresses\": [\"1113 MOONLIGHT WAY, MILPITAS, hidden info\", \"37 WINDEMERE LN, APTOS, hidden info\", \"1113 Moonlight Way, Milpitas, CA 95035\"]\n}"
+            },
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 2734,
+        "completion_tokens": 60,
+        "total_tokens": 2794
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "id": "chatcmpl-8D4QdyPBpX4W4bsdCNxcLAl6vsSpR",
+    "object": "chat.completion",
+    "created": 1698125979,
+    "model": "gpt-3.5-turbo-0613",
+    "choices": [
+        {
+            "index": 0,
+            "message": {
+                "role": "assistant",
+                "content": "{\n    \"names\": [\n        \"Simply_Vedic\",\n        \"Amazon.com Services LLC\",\n        \"EasyWayProducts\",\n        \"Brooklyn Botany\",\n        \"Tree To Tub\",\n        \"SpaLifeCorp\",\n        \"M3 Naturals\",\n        \"Handcraft Blends\",\n        \"Handcraft Blends\",\n        \"Tree To Tub\",\n        \"Tree To Tub\",\n        \"Tree To Tub\",\n        \"Tree To Tub\",\n        \"Tree To Tub\",\n        \"Tree To Tub\"\n    ],\n    \"addresses\": [\n        \"Simply_Vedic Product question? Ask Seller\",\n        \"Amazon.com Services LLC\",\n        \"EasyWayProducts\",\n        \"Brooklyn Botany\",\n        \"Tree To Tub\",\n        \"SpaLifeCorp\",\n        \"M3 Naturals Product question? Ask Seller\",\n        \"Handcraft Blends\",\n        \"Handcraft Blends\",\n        \"Tree To Tub\",\n        \"Tree To Tub\",\n        \"Tree To Tub\",\n        \"Tree To Tub\",\n        \"Tree To Tub\",\n        \"Tree To Tub\"\n    ]\n}"
+            },
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 1850,
+        "completion_tokens": 218,
+        "total_tokens": 2068
+    }
+}

@@ -42,5 +42,6 @@ const privacyUtils = new PrivacyUtils(promptUtils, dataUtils, orderScraper);
     // }
     // await utils.anonymizeData("./data/text");
 
-    await privacyUtils.anonymizeHtmlDataUsingScraper("./data/html");
+    const res = await privacyUtils.anonymizeHtmlDataUsingScraper("./data/html");
+    console.log(res);
 })();

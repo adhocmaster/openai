@@ -1,0 +1,23 @@
+{
+    "id": "chatcmpl-8YIwlEAkRNdPAytiWIWExCqPg2bVx",
+    "object": "chat.completion",
+    "created": 1703186675,
+    "model": "gpt-3.5-turbo-0613",
+    "choices": [
+        {
+            "index": 0,
+            "message": {
+                "role": "assistant",
+                "content": "[\n    {\n        \"name\": \"iRobot Roomba 692 Robot Vacuum - Wi-Fi Connectivity, Personalized Cleaning Recommendations, Works with Alexa, Good for Pet Hair, Carpets, Hard Floors, Self-Charging\",\n        \"brand\": \"iRobot\",\n        \"price\": 273.44,\n        \"classification\": \"Home Appliances\",\n        \"keywords\": [\"Robot Vacuum\", \"Wi-Fi Connectivity\", \"Alexa\", \"Pet Hair\", \"Carpets\", \"Hard Floors\"],\n        \"date\": \"October 19, 2023\"\n    },\n    {\n        \"name\": \"SODI Continuity Camera Mount for Desktop Monitor & iMac - iPhone Camera Mount with Mag-Safe Compatible, Adjustable Tilt for Desk View, Magnetic Phone Stand for iPhone 14/13/12 and Mac OS Ventura\",\n        \"brand\": \"SODI\",\n        \"price\": 20.44,\n        \"classification\": \"Electronics\",\n        \"keywords\": [\"Camera Mount\", \"iPhone\", \"Mag-Safe Compatible\", \"Adjustable Tilt\"],\n        \"date\": \"October 18, 2023\"\n    },\n    {\n        \"name\": \"iRobot Roomba 692 Robot Vacuum - Wi-Fi Connectivity, Personalized Cleaning Recommendations, Works with Alexa, Good for Pet Hair, Carpets, Hard Floors, Self-Charging\",\n        \"brand\": \"iRobot\",\n        \"price\": 180.46,\n        \"classification\": \"Home Appliances\",\n        \"keywords\": [\"Robot Vacuum\", \"Wi-Fi Connectivity\", \"Alexa\", \"Pet Hair\", \"Carpets\", \"Hard Floors\"],\n        \"date\": \"October 7, 2023\"\n    },\n    {\n        \"name\": \"Realistic Toucan Bird Stuffed Animal Plush Toy 13.78\\\" Plush Toy Gifts for Kids Birthday Christmas\",\n        \"brand\": null,\n        \"price\": 54.66,\n        \"classification\": null,\n        \"keywords\": [\"Stuffed Animal\", \"Plush Toy\", \"Kids\", \"Birthday\", \"Christmas\"],\n        \"date\": \"October 5, 2023\"\n    },\n    {\n        \"name\": \"Lotrimin Ultra 1 Week Athlete's Foot Treatment - Antifungal Cream with Butenafine Hydrochloride 1% for Rapid Relief from Ringworm and Foot, 1.1 Ounce\",\n        \"brand\": null,\n        \"price\": 16.07,\n        \"classification\": null,\n        \"keywords\": [\"Athlete's Foot Treatment\", \"Antifungal Cream\", \"Ringworm\", \"Foot\"],\n        \"date\": \"October 2, 2023\"\n    },\n    {\n        \"name\": \"Van Ness Pets EZ Sift Stainless Steel Cat Litter Scoop, Heavy Duty, Reduces Dust\",\n        \"brand\": \"Van Ness Pets\",\n        \"price\": 25.52,\n        \"classification\": \"Pet Supplies\",\n        \"keywords\": [\"Cat Litter Scoop\", \"Stainless Steel\", \"Heavy Duty\", \"Reduces Dust\"],\n        \"date\": \"September 24, 2023\"\n    },\n    {\n        \"name\": \"Nostalgia Retro Wide 2-Slice Toaster, Vintage Design With Crumb Tray, Cord Storage & 5 Toasting Levels, Aqua\",\n        \"brand\": \"Nostalgia\",\n        \"price\": 215.47,\n        \"classification\": \"Kitchen Appliances\",\n        \"keywords\": [\"Toaster\", \"Vintage Design\", \"Crumb Tray\", \"Cord Storage\", \"Toasting Levels\"],\n        \"date\": \"September 17, 2023\"\n    },\n    {\n        \"name\": \"Ortho Home Defense Max Indoor Insect Barrier: Starts to Kill Ants, Roaches, Spiders, Fleas & Ticks Fast, 1 gal.\",\n        \"brand\": \"Ortho\",\n        \"price\": 18.56,\n        \"classification\": \"Home Improvement\",\n        \"keywords\": [\"Insect Barrier\", \"Ants\", \"Roaches\", \"Spiders\", \"Fleas\", \"Ticks\"],\n        \"date\": \"September 15, 2023\"\n    },\n    {\n        \"name\": \"Q Skills for Success Listening & Speaking, 5th Level 3rd Edition Student book and IQ Online Access\",\n        \"brand\": null,\n        \"price\": 38.27,\n        \"classification\": null,\n        \"keywords\": [\"Listening & Speaking\", \"Student book\", \"IQ Online Access\"],\n        \"date\": \"September 12, 2023\"\n    },\n    {\n        \"name\": \"lawnko LED Strip with 24 Keys Remote Control, 2m Battery Powered Strip Lights for Party and DIY Decoration, 2 Pack\",\n        \"brand\": \"lawnko\",\n        \"price\": 30.6,\n        \"classification\": \"Home Improvement\",\n        \"keywords\": [\"LED Strip\", \"Remote Control\", \"Battery Powered\", \"Strip Lights\", \"Party\", \"DIY Decoration\"],\n        \"date\": \"August 30, 2023\"\n    }\n]"
+            },
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 2845,
+        "completion_tokens": 1048,
+        "total_tokens": 3893
+    },
+    "system_fingerprint": null
+}

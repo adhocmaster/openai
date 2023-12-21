@@ -1,0 +1,21 @@
+{
+    "id": "chatcmpl-8D3ZfQFB2LefnxWYqKGab8TiNyqtQ",
+    "object": "chat.completion",
+    "created": 1698122695,
+    "model": "gpt-3.5-turbo-0613",
+    "choices": [
+        {
+            "index": 0,
+            "message": {
+                "role": "assistant",
+                "content": "{\n    \"names\": [\"Gozde Guner\", \"Scott Davis\", \"Isabel Dogulu\"],\n    \"addresses\": [\"1113 MOONLIGHT WAY MILPITAS, CA 95035-6225\", \"37 WINDEMERE LN APTOS, CA 95003-3302\"]\n}"
+            },
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 2819,
+        "completion_tokens": 65,
+        "total_tokens": 2884
+    }
+}

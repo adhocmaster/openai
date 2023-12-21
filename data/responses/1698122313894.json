@@ -1,0 +1,21 @@
+{
+    "id": "chatcmpl-8D3TEBohiSbhs8PETdjA2TTRBeb4W",
+    "object": "chat.completion",
+    "created": 1698122296,
+    "model": "gpt-3.5-turbo-0613",
+    "choices": [
+        {
+            "index": 0,
+            "message": {
+                "role": "assistant",
+                "content": "[\n    {\n        \"name\": \"iRobot Roomba 692 Robot Vacuum\",\n        \"brand\": \"iRobot\",\n        \"price\": 273.44,\n        \"classification\": \"Home Appliances\",\n        \"keywords\": [\"Robot Vacuum\", \"Wi-Fi Connectivity\", \"Pet Hair\"],\n        \"date\": \"October 19, 2023\"\n    },\n    {\n        \"name\": \"SODI Continuity Camera Mount for Desktop Monitor & iMac\",\n        \"brand\": \"SODI\",\n        \"price\": 20.44,\n        \"classification\": \"Electronics\",\n        \"keywords\": [\"Camera Mount\", \"Mag-Safe Compatible\"],\n        \"date\": \"October 18, 2023\"\n    },\n    {\n        \"name\": \"iRobot Roomba 692 Robot Vacuum\",\n        \"brand\": \"iRobot\",\n        \"price\": 180.46,\n        \"classification\": \"Home Appliances\",\n        \"keywords\": [\"Robot Vacuum\", \"Wi-Fi Connectivity\", \"Pet Hair\"],\n        \"date\": \"October 7, 2023\"\n    },\n    {\n        \"name\": \"Realistic Toucan Bird Stuffed Animal Plush Toy\",\n        \"price\": 54.66,\n        \"date\": \"October 5, 2023\"\n    },\n    {\n        \"name\": \"Lotrimin Ultra 1 Week Athlete's Foot Treatment\",\n        \"price\": 16.07,\n        \"date\": \"October 2, 2023\"\n    },\n    {\n        \"name\": \"Van Ness Pets EZ Sift Stainless Steel Cat Litter Scoop\",\n        \"brand\": \"Van Ness\",\n        \"price\": 25.52,\n        \"classification\": \"Pet Supplies\",\n        \"keywords\": [\"Cat Litter Scoop\"],\n        \"date\": \"September 24, 2023\"\n    },\n    {\n        \"name\": \"Nostalgia Retro Wide 2-Slice Toaster\",\n        \"brand\": \"Nostalgia\",\n        \"price\": 215.47,\n        \"classification\": \"Home & Kitchen\",\n        \"keywords\": [\"Toaster\", \"Vintage Design\"],\n        \"date\": \"September 17, 2023\"\n    },\n    {\n        \"name\": \"Ortho Home Defense Max Indoor Insect Barrier\",\n        \"brand\": \"Ortho\",\n        \"price\": 18"
+            },
+            "finish_reason": "length"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 3610,
+        "completion_tokens": 488,
+        "total_tokens": 4098
+    }
+}

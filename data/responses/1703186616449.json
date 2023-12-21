@@ -1,0 +1,23 @@
+{
+    "id": "chatcmpl-8YIvP6KG5JwGSLsoLqpOiAh4evV1G",
+    "object": "chat.completion",
+    "created": 1703186591,
+    "model": "gpt-3.5-turbo-0613",
+    "choices": [
+        {
+            "index": 0,
+            "message": {
+                "role": "assistant",
+                "content": "{\n    \"name\": \"Arts & Crafts\",\n    \"brand\": \"\",\n    \"price\": 0,\n    \"classification\": \"\",\n    \"keywords\": [],\n    \"date\": \"\"\n},\n{\n    \"name\": \"Automotive\",\n    \"brand\": \"\",\n    \"price\": 0,\n    \"classification\": \"\",\n    \"keywords\": [],\n    \"date\": \"\"\n},\n{\n    \"name\": \"Baby\",\n    \"brand\": \"\",\n    \"price\": 0,\n    \"classification\": \"\",\n    \"keywords\": [],\n    \"date\": \"\"\n},\n{\n    \"name\": \"Beauty & Personal Care\",\n    \"brand\": \"\",\n    \"price\": 0,\n    \"classification\": \"\",\n    \"keywords\": [],\n    \"date\": \"\"\n},\n{\n    \"name\": \"Books\",\n    \"brand\": \"\",\n    \"price\": 0,\n    \"classification\": \"\",\n    \"keywords\": [],\n    \"date\": \"\"\n},\n{\n    \"name\": \"Boys' Fashion\",\n    \"brand\": \"\",\n    \"price\": 0,\n    \"classification\": \"\",\n    \"keywords\": [],\n    \"date\": \"\"\n},\n{\n    \"name\": \"Computers\",\n    \"brand\": \"\",\n    \"price\": 0,\n    \"classification\": \"\",\n    \"keywords\": [],\n    \"date\": \"\"\n},\n{\n    \"name\": \"Deals\",\n    \"brand\": \"\",\n    \"price\": 0,\n    \"classification\": \"\",\n    \"keywords\": [],\n    \"date\": \"\"\n},\n{\n    \"name\": \"Digital Music\",\n    \"brand\": \"\",\n    \"price\": 0,\n    \"classification\": \"\",\n    \"keywords\": [],\n    \"date\": \"\"\n},\n{\n    \"name\": \"Electronics\",\n    \"brand\": \"\",\n    \"price\": 0,\n    \"classification\": \"\",\n    \"keywords\": [],\n    \"date\": \"\"\n},\n{\n    \"name\": \"Girls' Fashion\",\n    \"brand\": \"\",\n    \"price\": 0,\n    \"classification\": \"\",\n    \"keywords\": [],\n    \"date\": \"\"\n},\n{\n    \"name\": \"Health & Household\",\n    \"brand\": \"\",\n    \"price\": 0,\n    \"classification\": \"\",\n    \"keywords\": [],\n    \"date\": \"\"\n},\n{\n    \"name\": \"Home & Kitchen\",\n    \"brand\": \"\",\n    \"price\": 0,\n    \"classification\": \"\",\n    \"keywords\": [],\n    \"date\": \"\"\n},\n{\n    \"name\": \"Industrial & Scientific\",\n    \"brand\": \"\",\n    \"price\": 0,\n    \"classification\": \"\",\n    \"keywords\": [],\n    \"date\": \"\"\n},\n{\n    \"name\": \"Kindle Store\",\n    \"brand\": \"\",\n    \"price\": 0,\n    \"classification\": \"\",\n    \"keywords\": [],\n    \"date\": \"\"\n},\n{\n    \"name\": \"Luggage\",\n    \"brand\": \"\",\n    \"price\": 0,\n    \"classification\": \"\",\n    \"keywords\": [],\n    \"date\": \"\"\n},\n{\n    \"name\": \"Men's Fashion\",\n    \"brand\": \"\",\n    \"price\": 0,\n    \"classification\": \"\",\n    \"keywords\": [],\n    \"date\": \"\"\n},\n{\n    \"name\": \"Movies & TV\",\n    \"brand\": \"\",\n    \"price\": 0,\n    \"classification\": \"\",\n    \"keywords\": [],\n    \"date\": \"\"\n},\n{\n    \"name\": \"Music, CDs & Vinyl\",\n    \"brand\": \"\",\n    \"price\": 0,\n    \"classification\": \"\",\n    \"keywords\": [],\n    \"date\": \"\"\n},\n{\n    \"name\": \"Pet Supplies\",\n    \"brand\": \"\",\n    \"price\": 0,\n    \"classification\": \"\",\n    \"keywords\": [],\n    \"date\": \"\"\n},\n{\n    \"name\": \"Prime Video\",\n    \"brand\": \"\",\n    \"price\": 0,\n    \"classification\": \"\",\n    \"keywords\": [],\n    \"date\": \"\"\n},\n{\n    \"name\": \"Software\",\n    \"brand\": \"\",\n    \"price\": 0,\n    \"classification\": \"\",\n    \"keywords\": [],\n    \"date\": \"\"\n},\n{\n    \"name\": \"Sports & Outdoors\",\n    \"brand\": \"\",\n    \"price\": 0,\n    \"classification\": \"\",\n    \"keywords\": [],\n    \"date\": \"\"\n},\n{\n    \"name\": \"Tools & Home Improvement\",\n    \"brand\": \"\",\n    \"price\": 0,\n    \"classification\": \"\",\n    \"keywords\": [],\n    \"date\": \"\"\n},\n{\n    \"name\": \"Toys & Games\",\n    \"brand\": \"\",\n    \"price\": 0,\n    \"classification\": \"\",\n    \"keywords\": [],\n    \"date\": \"\"\n},\n{\n    \"name\": \"Video Games\",\n    \"brand\": \"\",\n    \"price\": 0,\n    \"classification\": \"\",\n    \"keywords\": [],\n    \"date\": \"\"\n},\n{\n    \"name\": \"Women's Fashion\",\n    \"brand\": \"\",\n    \"price\": 0,\n    \"classification\": \"\",\n    \"keywords\": [],\n    \"date\": \"\"\n}"
+            },
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 905,
+        "completion_tokens": 1019,
+        "total_tokens": 1924
+    },
+    "system_fingerprint": null
+}
